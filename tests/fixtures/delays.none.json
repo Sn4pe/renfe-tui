@@ -1,0 +1,1 @@
+{"map_updated": "2026-11-20T11:21:00+01:00", "mapped_trains": 90, "delayed": 1, "on_time": 80, "early": 5, "unknown": 4, "trains": [], "notice": null, "retries": [], "schedule_matches": {"exact": 1, "linked": 0, "ambiguous": 0, "unmatched": 0, "unavailable": 0}, "requested_train": "09999"}

@@ -1,0 +1,1 @@
+{"error": {"type": "usage", "message": "Install the checkout extra with `uv sync --extra checkout` and use `uv run --extra checkout renfe checkout`.", "exit_code": 2}}

@@ -1,0 +1,25 @@
+[project]
+name = "renfe-tui"
+version = "0.1.0"
+description = "Terminal UI for Renfe timetables, fares and live delays, built on renfe-cli. Unofficial."
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "David", email = "dev@sn4pe.com" }]
+requires-python = ">=3.12"
+dependencies = [
+    "renfe-cli @ git+https://github.com/luisgonzaleznf/renfe-cli@d273885e4e4cffed993c0ff96377bb653a51b62f",
+    "textual>=8.2,<9",
+]
+
+[project.scripts]
+renfe-tui = "renfe_tui.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.14"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "renfe_tui"
+
+[dependency-groups]
+dev = ["pytest>=9.1.1"]
