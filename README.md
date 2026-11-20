@@ -1,6 +1,13 @@
 # renfe-tui
 
+[![CI](https://github.com/Sn4pe/renfe-tui/actions/workflows/ci.yml/badge.svg)](https://github.com/Sn4pe/renfe-tui/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/Sn4pe/renfe-tui)](https://github.com/Sn4pe/renfe-tui/releases/latest)
+[![Python](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/github/license/Sn4pe/renfe-tui)](LICENSE)
+
 Renfe train times, fares and live delays in your terminal.
+
+![Searching Madrid to Barcelona in renfe-tui](docs/demo.gif)
 
 > **Unofficial.** Not affiliated with, endorsed by or supported by Renfe. It runs on
 > [renfe-cli](https://github.com/luisgonzaleznf/renfe-cli), which talks to Renfe's web API anonymously, the
@@ -47,6 +54,15 @@ Everything works with the mouse or the keyboard.
 
 To go easy on Renfe, nothing is fetched on its own except a followed train, which renfe-cli checks every 2
 minutes for up to 12 hours. If Renfe blocks or rate-limits requests, following stops.
+
+## Screenshots
+
+Taken with sample data.
+
+| | |
+|---|---|
+| ![Home screen](docs/home.png) | ![Results with fares](docs/results.png) |
+| ![Following a train](docs/follow.png) | ![Delays right now](docs/delays.png) |
 
 ## Development
 
